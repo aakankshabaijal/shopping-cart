@@ -1,7 +1,11 @@
+import React from 'react';
+import CartItem from './CartItem';
+
 function App() {
 	return (
-		<div className="App bg-red-200">
-			<h1 className="text-3xl font-bold underline"> Hello world! </h1>
+		<div className="App font-['Montserrat'] m-4 p-4">
+			<h1 className="text-5xl font-bold text-center"> Cart </h1>
+			<CartItem />
 		</div>
 	);
 }
