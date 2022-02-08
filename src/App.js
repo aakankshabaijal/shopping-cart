@@ -1,11 +1,11 @@
 import React from 'react';
-import CartItem from './CartItem';
+import Cart from './Cart';
 
 function App() {
 	return (
 		<div className="App font-['Montserrat'] m-4 p-4">
 			<h1 className="text-5xl font-bold text-center"> Cart </h1>
-			<CartItem />
+			<Cart />
 		</div>
 	);
 }
